@@ -5,7 +5,7 @@ documentation:
 
 This project intends to retrieve geographic placenames from unstructured text and geocode them.
 
-The main driver class is GIS_Driver.java and located in GeographicInformationRetrieval_RD --> GIS_Driver.java
+The main driver class is GIR_Driver.java and located in GeographicInformationRetrieval_RD --> GIS_Driver.java
 
 You can add texts in the driver class either by manual addition or by reading a file.
 In this version the driver class allows hardcoded addition of texts for demonstration only. 
