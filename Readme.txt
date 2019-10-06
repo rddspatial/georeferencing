@@ -14,7 +14,7 @@ a file or database in an efficient manner by looping over a file/database and ex
 row/record and pass it to the code block in main method and get the placenames and its associated information
 (coordinate, placetype, state, country) returned. 
 
-The main method mainly primarily triggers getToponymList method in ToponymRetriever class which in turn 
+The main method primarily triggers getToponymList method in ToponymRetriever class which in turn 
 calls other methods from other classes to do the necessary jobs (for details see the description of the 
 workflow in the paper). The constructor of ToponymRetriever class is also the entry point and initializer
 of three toponym retriever (OpenNLP, Stanford NLP and Rulebase). 
