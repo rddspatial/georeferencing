@@ -33,7 +33,7 @@ OpenNLP is retrained on a training data (./res/OpenNLPTraining_NER_loc.txt). See
 see how to annotate (tag) the location mentions which can be read by Apache OpenNLP NER.
 Stanford NLP is used as it is provided and trained on formal data.
 Rule base is based on spatial rules (see the paper for details) which leverages spatial prepositions,
-Noun POS and a hand-crafted lexicon of vernacular placenames. The lexicon is provided in ./res/post_vernacular.txt).
+Noun POS and a hand-crafted lexicon of vernacular placenames. The lexicon is provided in ./res/post_vernacular.txt
 
 To improve the performance of the model or to adapt it to other geographical area, add new and more training 
 data in OpenNLPTraining_NER_loc.txt. Vernacular placenames are peculiar to a specific geographical region, although
