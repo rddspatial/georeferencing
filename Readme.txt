@@ -8,7 +8,7 @@ facebook posts, people's feedback and review on travel blogs to name a few. Once
 detected they can be geocoded to plot them on a map or to use them in other location-based service(s)
 or decision making process.
 For example, the text 'There is a heavy traffic near Bapuji marg in Mumbai' contains two placenames,
-Bapuji marg and Mumbai and the model ideally detects them and assign coordinates to those placenames
+Bapuji marg and Mumbai and the model ideally detects them and assigns coordinates to those placenames
 in an automated manner.
 
 The main driver class is GIR_Driver.java and located in GeographicInformationRetrieval_RD --> GIR_Driver.java
