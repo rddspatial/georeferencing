@@ -26,8 +26,8 @@ calls other methods from other classes to do the necessary jobs (for details see
 workflow in the paper). The constructor of ToponymRetriever class is also the entry point and initializer
 of three toponym retriever (OpenNLP, Stanford NLP and Rulebase). 
 
-OpenNLP is retrained on a training data (./res/OpenNLPTraining_NER_loc.txt). See the training .txt file to
-see how to annotate (tag) the location mentions which can be read by Apache OpenNLP NER.
+OpenNLP is retrained on a training data (./res/OpenNLPTraining_NER_loc.txt). See the OpenNLPTraining_NER_loc.txt file to
+understand how to annotate (tag) the location mentions which can be read by Apache OpenNLP NER.
 Stanford NLP is used as it is provided and trained on formal data.
 Rule base is based on spatial rules (see the paper for details) which leverages spatial prepositions,
 Noun POS and a hand-crafted lexicon of vernacular placenames. The lexicon is provided in ./res/post_vernacular.txt
