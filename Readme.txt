@@ -35,9 +35,15 @@ Noun POS and a hand-crafted lexicon of vernacular placenames. The lexicon is pro
 
 To improve the performance of the model or to adapt it to other geographical area, add new and more training 
 data in OpenNLPTraining_NER_loc.txt. Vernacular placenames are peculiar to a specific geographical region, although
-our vernacular lexicon contains lots of generic object types in English terms that are globally used in almost all the
-geographical regions (e.g., park, college, street, road, hospital, market, building, bridge etc), which generally
-appear after a placename. Thus the existing model will work in different geography with varied accuracy, with the best performance in Indian cities, specifically in Mumbai as the training data and lexicon is more focussed on Mumbai. However, to adapt this geoparser to another region or to improve the performance, the existing lexicon can be updated with the vernacular names or more object types critical to the given geography. In the given lexicon some of the vernacular terms critical to the Indian cities are 'marg' (road), 'sadak' (road), 'chowpatty' (where fishermen live), 'chowk' (junction), 'bhavan' (building) etc. 
+our vernacular lexicon contains lots of generic object types in English terms that are globally used in almost all 
+the geographical regions (e.g., park, college, street, road, hospital, market, building, bridge etc), 
+which generally appear after a placename. Thus the existing model will work in different geography with varied
+accuracy,  with the best performance in Indian cities, specifically in Mumbai as the training data and lexicon 
+is more focussed on Mumbai. However, to adapt this geoparser to another region or to improve the performance, 
+the existing lexicon can be updated with the vernacular names or more object types critical 
+to the given geography. In the given lexicon some of the vernacular terms critical 
+to the Indian cities are 'marg' (road), 'sadak' (road), 'chowpatty' (where fishermen live), 
+'chowk' (junction), 'bhavan' (building) etc. 
 
 Once the placenames are detected, OpenStreetMap (OSM) is used to geocode the places. 
 To do this Nominatim API was used which is implemented in GeoCoderOSMExtended --> OpenStreetMapUtils.java (no username or secret key is required) 
