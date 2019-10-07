@@ -46,7 +46,8 @@ to the Indian cities are 'marg' (road), 'sadak' (road), 'chowpatty' (where fishe
 'chowk' (junction), 'bhavan' (building) etc. 
 
 Once the placenames are detected, OpenStreetMap (OSM) is used to geocode the places. 
-To do this Nominatim API was used which is implemented in GeoCoderOSMExtended --> OpenStreetMapUtils.java (no username or secret key is required) 
+To do this Nominatim API was used which is implemented in GeoCoderOSMExtended --> OpenStreetMapUtils.java 
+(To use OSM NOminatim API, no username or secret key is required) 
 For placenmae (toponym) disambiguation, a spatial_context was used which is Maharashtra in this case, but
 depending on the study area, the spatial_context can be changed (see the driver class).
 A provision is also made to incorporate geonames for placename lookup and geocoding purpose but 
