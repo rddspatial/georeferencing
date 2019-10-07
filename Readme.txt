@@ -16,7 +16,7 @@ The main driver class is GIR_Driver.java and located in GeographicInformationRet
 You can add (queriedd) texts in the driver class either by manual addition (hardcoded)or from a file/database.
 Each queried text is assumed to contain some placenames. The model detects the placenames and
 maps them to a unique spatial footprint (coordinate) on the earth. The coordinates are based 
-on WGS84 coordinate system. Currently there are two example texts are provided (text1, text2) just for 
+on WGS84 coordinate system. Currently there are two example texts provided (text1, text2) just for 
 demonstration purpose. But the code can be used for batch processing by getting the texts from a file/database. 
 In this version the driver class allows hardcoded addition of texts for demonstration only. 
 But the code can easily be customised for batch processing by reading the texts from 
