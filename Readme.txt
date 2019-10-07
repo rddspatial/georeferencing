@@ -4,7 +4,7 @@ documentation:
 -------------------------------------------------------------------------------------------
 
 This project intends to retrieve geographic placenames from unstructured text, for example, tweets, 
-facebook posts, people's feedback and review on travel blogs to name a few. Once the placenames are
+facebook posts, people's review on travel blogs, to name a few. Once the placenames are
 detected they can be geocoded to plot them on a map or to use them in other location-based service(s)
 or decision making process.
 For example, the text 'There is a heavy traffic near Bapuji marg in Mumbai' contains two placenames,
