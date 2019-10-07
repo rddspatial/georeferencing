@@ -51,7 +51,7 @@ Once the placenames are detected, OpenStreetMap (OSM) is used to geocode the pla
 To do this Nominatim API was used which is implemented in GeoCoderOSMExtended --> OpenStreetMapUtils.java 
 (To use OSM Nominatim API, no username or secret key is required. But for geonames API you need a
 username / secret key).
-For placenmae (toponym) disambiguation, a spatial_context was used which is Maharashtra in this case, but
+For placename (toponym) disambiguation, a spatial_context was used which is Maharashtra in this case, but
 depending on the study area, the spatial_context can be changed (see the driver class).
 A provision is also made to incorporate geonames for placename lookup and geocoding purpose but 
 not used in this project. To use geonames API, use your own username (registered with geonames).
