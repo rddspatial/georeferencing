@@ -13,7 +13,7 @@ in an automated manner.
 
 The main driver class is GIR_Driver.java and located in GeographicInformationRetrieval_RD --> GIR_Driver.java
 
-You can add (queriedd) texts in the driver class either by manual addition (hardcoded)or from a file/database.
+You can add (queriedd) texts in the driver class either by manual addition (hardcoded) or from a file/database.
 Each queried text is assumed to contain some placenames. The model detects the placenames and
 maps them to a unique spatial footprint (coordinate) on the earth. The coordinates are based 
 on WGS84 coordinate system. Currently there are two example texts provided (text1, text2) just for 
