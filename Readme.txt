@@ -17,12 +17,9 @@ You can add (queriedd) texts in the driver class either by manual addition (hard
 Each queried text is assumed to contain some placenames. The model detects the placenames and
 maps them to a unique spatial footprint (coordinate) on the earth. The coordinates are based 
 on WGS84 coordinate system. Currently there are two example texts provided (text1, text2) just for 
-demonstration purpose. But the code can be used for batch processing by getting the texts from a file/database. 
-In this version the driver class allows hardcoded addition of texts for demonstration only. 
-But the code can easily be customised for batch processing by reading the texts from 
-a file or database in an efficient manner by looping over a file/database and extract each text from a 
-row/record and pass it to the code block in main method and get the placenames and its associated information
-(coordinate, placetype, state, country) returned. 
+demonstration purpose. But the code can be easily customised for batch processing by reading the texts from 
+a file or database in an efficient manner and get the placenames retrieved with their associated information
+(coordinate, placetype, state, country). 
 
 The main method primarily triggers getToponymList method in ToponymRetriever class which in turn 
 calls other methods from other classes to do the necessary jobs (for details see the description of the 
