@@ -57,6 +57,9 @@ to develop the dependency please check the following jar libraries and .bin file
 
 How to run this code?
 
-Download the zip folder and import it in your Eclipse environment. Check all the dependencies. For space constraint we have removed stanford library from the resources. Please download stanford-corenlp-3.8.0.jar and stanford-corenlp-3.8.0-models.jar from https://stanfordnlp.github.io/CoreNLP/. Build the dependencies by importing all the above listed jar files in your project resource. Go to the Driver class located in GeographicInformationRetrieval_RD package and run the code. Enjoy!!!
+Download the zip folder and import it in your Eclipse environment. Check all the dependencies. 
+For space constraint we have removed stanford library from the resources. Please download stanford-corenlp-3.8.0.jar 
+and stanford-corenlp-3.8.0-models.jar from https://stanfordnlp.github.io/CoreNLP/. Build the dependencies by 
+importing all the above listed jar files in your project resource. Go to the Driver class located in GeographicInformationRetrieval_RD package and run the code. Enjoy!!!
 
 For any question please contact: spatialinformatica@gmail.com
