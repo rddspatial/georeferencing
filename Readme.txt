@@ -41,7 +41,7 @@ Noun POS and a hand-crafted lexicon of vernacular placenames. The lexicon is pro
 To improve the performance of the model or to adapt it to other geographical area, add new and more training 
 data in OpenNLPTraining_NER_loc.txt. Vernacular placenames are peculiar to a specific geographical region, although
 our vernacular lexicon contains lots of generic object types in English terms that are globally used in almost all 
-the geographical regions (e.g., park, college, street, road, hospital, market, building, bridge etc), 
+the geographical regions (e.g., park, college, street, road, hospital, market, building, bridge, station etc), 
 which generally appear after a placename. Thus the existing model will work in different geography with varied
 accuracy,  with the best performance in Indian cities, specifically in Mumbai as the training data and lexicon 
 is more focussed on Mumbai. However, to adapt this geoparser to another region or to improve the performance, 
