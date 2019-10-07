@@ -29,9 +29,9 @@ To improve the performance of the model or to adapt it to other geographical are
 data in OpenNLPTraining_NER_loc.txt. Vernacular placenames are peculiar to a specific geographical region, although
 our vernacular lexicon contains lots of generic object types in English terms that are globally used in almost all the
 geographical regions (e.g., park, college, street, road, hospital, market, building, bridge etc), which generally
-appear after a placename. However, to adapt this geoparser to another region and to improve the performance, a new or modified vernacular lexicon can be added or the existing lexicon can be updated with new vernacular and object terms.
+appear after a placename. Thus the existing model will work in different geography with varied accuracy, with the best performance in Indian cities, specifically in Mumbai as the training data and lexicon is more focussed on Mumbai. However, to adapt this geoparser to another region or to improve the performance, the existing lexicon can be updated with the vernacular names or more object types critical to the given geography.
 
-Once the placenames are detected, OpenStreetMap (OSM) was used to geocode the places. 
+Once the placenames are detected, OpenStreetMap (OSM) is used to geocode the places. 
 To do this Nominatim API was used which is implemented in GeoCoderOSMExtended --> OpenStreetMapUtils.java (no username or secret key is required) 
 For placenmae (toponym) disambiguation, a spatial_context was used which is Maharashtra in this case, but
 depending on the study area, the spatial_context can be changed (see the driver class).
