@@ -3,7 +3,9 @@ documentation:
 06.10.2019
 -------------------------------------------------------------------------------------------
 
-This project intends to retrieve geographic placenames from unstructured text and geocode them.
+This project intends to retrieve geographic placenames from unstructured text, for example, tweets, 
+facebook posts, people's feedback and review on travel blogs to name a few. Once the placenames are
+detected they can be geocoded to plot them on a map or to use in other location-based service.
 
 The main driver class is GIR_Driver.java and located in GeographicInformationRetrieval_RD --> GIR_Driver.java
 
