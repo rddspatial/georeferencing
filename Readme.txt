@@ -57,7 +57,7 @@ A provision is also made to incorporate geonames for placename lookup and geocod
 not used in this project. To use geonames API, use your own username (registered with geonames).
 
 This project is compatible with java 1.8, opennlp-tools-1.8.1 and Stanford-corenlp-3.8.0.
-to develop the dependency please check the following jar libraries and .bin files in ./res
+To develop the dependency please check the following jar libraries and .bin files in ./res
 
 1. geonames-1.1.13.jar
 2. hamcrest-core-1.1.jar
