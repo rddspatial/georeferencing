@@ -24,7 +24,7 @@ a file or database in an efficient manner and get the placenames retrieved with 
 The main method primarily triggers getToponymList method in ToponymRetriever class which in turn 
 calls other methods from other classes to do the necessary jobs (for details see the description of the 
 workflow in the paper). The constructor of ToponymRetriever class is also the entry point and initializer
-of three toponym retriever (OpenNLP, Stanford NLP and Rulebase). 
+of three toponym retrievers (OpenNLP, Stanford NLP and Rulebase). 
 
 OpenNLP is retrained on a training data (./res/OpenNLPTraining_NER_loc.txt). See the OpenNLPTraining_NER_loc.txt file to
 understand how to annotate (tag) the location mentions which can be read by Apache OpenNLP NER.
