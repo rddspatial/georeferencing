@@ -28,6 +28,8 @@ of three toponym retriever (OpenNLP, Stanford NLP and Rulebase).
 
 OpenNLP is retrained on a training data (./res/OpenNLPTraining_NER_loc.txt). See the OpenNLPTraining_NER_loc.txt file to
 understand how to annotate (tag) the location mentions which can be read by Apache OpenNLP NER.
+This is important when you want to create your own training data to boost the performance of the model
+or to use it in a different region.
 Stanford NLP is used as it is provided and trained on formal data.
 Rule base is based on spatial rules (see the paper for details) which leverages spatial prepositions,
 Noun POS and a hand-crafted lexicon of vernacular placenames. The lexicon is provided in ./res/post_vernacular.txt
