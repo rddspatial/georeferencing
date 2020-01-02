@@ -88,6 +88,8 @@ and run the code. Enjoy!!!
 
 How to cite?
 
-Das, RD., Purves, RS. (2019), Exploring the Potential of Twitter to Understand Traffic Events and Their Locations in Greater Mumbai, India, IEEE Transactions on Intelligent Transportation Systems, 10.1109/TITS.2019.2950782
+Das, RD., Purves, RS. (2019), Exploring the Potential of Twitter to Understand Traffic Events and 
+Their Locations in Greater Mumbai, India, IEEE Transactions on Intelligent Transportation Systems, 
+10.1109/TITS.2019.2950782
 
 For any question please contact: spatialinformatica@gmail.com
