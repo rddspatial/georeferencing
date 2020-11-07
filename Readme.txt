@@ -85,7 +85,7 @@ and stanford-corenlp-3.8.0-models.jar from https://stanfordnlp.github.io/CoreNLP
 Build the dependencies by importing all the above listed jar files in your project resource. 
 Go to the Driver class located in GeographicInformationRetrieval_RD package
 and run the code. Enjoy!!!
-
+--------------------------------------------------------------------------------------------------------------
 The results were initially communicated at VGI Geovisual Analytics Workshop, colocated with BDVA 2018, Germany, 
 Konstanz following an extension of this work culminating a research paper as follows. 
 
