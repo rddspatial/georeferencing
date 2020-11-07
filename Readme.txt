@@ -86,7 +86,8 @@ Build the dependencies by importing all the above listed jar files in your proje
 Go to the Driver class located in GeographicInformationRetrieval_RD package
 and run the code. Enjoy!!!
 
-The results are initially communicated at VGI Geovisual Analytics Workshop, colocated with BDVA 2018, Germany, Konstanz following an extension of this work culminating a research paper as follows. 
+The results were initially communicated at VGI Geovisual Analytics Workshop, colocated with BDVA 2018, Germany, 
+Konstanz following an extension of this work culminating a research paper as follows. 
 
 How to cite?
 
